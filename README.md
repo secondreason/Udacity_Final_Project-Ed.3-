@@ -6,7 +6,7 @@ This is a the Tournamnet Project, i've created  as a Final Project of The relati
 databases course.
 
 In the tournament.py file, there are functions necessary to run the tournament and
-in the tournament.sql file there aer tables, schemas and some views already defined.
+in the tournament.sql file there are tables, schemas and some views already defined.
 
 How to Run:
 
