@@ -2,16 +2,23 @@
 
 Description
 
-This is a the Tournamnet Project part of the Full Stack Web Developer Nanodegree,
-in the tournament.py file, are the functions necessary to run the tournament and
-in the tournament.sql file are the tables schemas and some views already defined.
+This is a the Tournamnet Project, i've created it as a Final Project of The relational
+databases course.
+In the tournament.py file, there are functions necessary to run the tournament and
+in the tournament.sql file there aer tables, schemas and some views already defined.
 
 How to Run:
 
-For running this porject first, you should have installed Vagrant and VirtualBox.
+For running this porject first, you should have Vagrant and VirtualBox.
+If you dont, please install it.
 
 Clone this repository
-Inside the folder run vagrant up
-Once the machine is running run vagrant ssh
-When in the vm go to ../../vagrant/
-Have fun, to run test python tournament_test.py
+Inside the folder run vagrant up.
+
+When the machine is running, you should run vagrant ssh.
+
+When you are in the vm go to ../../vagrant/.
+
+To run test type python tournament_test.py.
+
+Have fun.
