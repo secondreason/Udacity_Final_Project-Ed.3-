@@ -13,13 +13,14 @@ How to Run:
 For running this porject first, you should have Vagrant and VirtualBox.
 If you dont, please install it.
 
-Clone this repository
-Inside the folder run vagrant up.
+1.Clone this repository.
 
-When the machine is running, you should run vagrant ssh.
+2.Inside the folder run vagrant up.
 
-When you are in the vm go to ../../vagrant/.
+3.When the machine is running, you should run vagrant ssh.
 
-To run test type python tournament_test.py.
+4.When you are in the vm go to ../../vagrant/.
+
+5.To run test type python tournament_test.py.
 
 Have fun.
