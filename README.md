@@ -10,23 +10,24 @@ with a similar running score, but not the same opponent more than once.The winne
 with the highest aggregate points earned in all rounds
 
 In the tournament.py file, there are functions necessary to run the tournament such as :
-1)connect() - Connect to PostgreSQL database.
 
-2)commit_st(func) - special function created to make coding simple.
+1)```connect() ``` - Connect to PostgreSQL database.
 
-3)deleteMatches(cursor) - delete all the match records.
+2)```commit_st(func)``` - special function created to make coding simple.
 
-4)deletePlayers(cursor)- remove all player records.
+3)```deleteMatches(cursor)``` - delete all the match records.
 
-5)countPlayers(cursor) - returns a number of players currently registered.
+4)```deletePlayers(cursor)```- remove all player records.
 
-6)registerPlayer(cursor, name) - Adds a player to the tournament database.
+5)```countPlayers(cursor)``` - returns a number of players currently registered.
 
-7)playerStandings(cursor) - Returns a list of the players and their win records, sorted by wins.
+6)```registerPlayer(cursor, name)``` - Adds a player to the tournament database.
 
-8)reportMatch(cursor, winner, loser) -Records the outcome of a single match between two players.
+7)```playerStandings(cursor)``` - Returns a list of the players and their win records, sorted by wins.
 
-9)swissPairings() - Returns a list of pairs of players for the next round of a match.
+8)```reportMatch(cursor, winner, loser)``` -Records the outcome of a single match between two players.
+
+9)```swissPairings()``` - Returns a list of pairs of players for the next round of a match.
 
 In the tournament.sql file there are tables, schemas and some views already defined.
 
@@ -37,7 +38,7 @@ How to Run:
 For running this porject first, you should have Vagrant and VirtualBox.
 If you dont, please install it.
 
-1.Clone [repository this with all files] (https://github.com/secondreason/Udacity_Final_Project-Ed.3-).
+1.Clone this repository with all files (https://github.com/secondreason/Udacity_Final_Project-Ed.3-).
 
 2.From your terminal, navigate to repository you just cloned.
 
@@ -51,9 +52,11 @@ If you dont, please install it.
 
 7.Before running tests you should create database using
 
-⋅⋅*`CREATE DATABASE tournament` Create database.
-⋅⋅* `\C tournament` Connect to database tournament.
-⋅⋅*`\I tournament.sql` Creating all tables and views from file.
+⋅⋅1.`CREATE DATABASE tournament` Create database.
+
+⋅⋅2. `\C tournament` Connect to database tournament.
+
+⋅⋅3.`\I tournament.sql` Creating all tables and views from file.
 
 5.To run test type python tournament_test.py.
 
