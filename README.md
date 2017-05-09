@@ -1,6 +1,6 @@
 # Udacity_Final_Project-Ed.3-
 
-Description
+##  Description
 
 This is a the Tournamnet Project, i've created  as a Final Project of The relational
 databases course.It shows how is working Swiss tournament system. The main idea of this system is 
@@ -33,7 +33,7 @@ In the tournament.sql file there are tables, schemas and some views already defi
 
 File tournament_test.py was made to check if our database and tournament.py file really works.
 
-How to Run:
+##  How to Run:
 
 For running this porject first, you should have Vagrant and VirtualBox.
 If you dont, please install it.
@@ -52,11 +52,11 @@ If you dont, please install it.
 
 7.Before running tests you should create database using
 
-⋅⋅1.`CREATE DATABASE tournament` Create database.
+ 1. `CREATE DATABASE tournament` Create database.
 
-⋅⋅2. `\C tournament` Connect to database tournament.
+ 2. `\C tournament` Connect to database tournament.
 
-⋅⋅3.`\I tournament.sql` Creating all tables and views from file.
+ 3.`\I tournament.sql` Creating all tables and views from file.
 
 5.To run test type python tournament_test.py.
 
