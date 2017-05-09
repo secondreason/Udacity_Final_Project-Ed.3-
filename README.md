@@ -11,23 +11,15 @@ with the highest aggregate points earned in all rounds
 
 In the tournament.py file, there are functions necessary to run the tournament such as :
 
-1)```connect() ``` - Connect to PostgreSQL database.
-
-2)```commit_st(func)``` - special function created to make coding simple.
-
-3)```deleteMatches(cursor)``` - delete all the match records.
-
-4)```deletePlayers(cursor)```- remove all player records.
-
-5)```countPlayers(cursor)``` - returns a number of players currently registered.
-
-6)```registerPlayer(cursor, name)``` - Adds a player to the tournament database.
-
-7)```playerStandings(cursor)``` - Returns a list of the players and their win records, sorted by wins.
-
-8)```reportMatch(cursor, winner, loser)``` -Records the outcome of a single match between two players.
-
-9)```swissPairings()``` - Returns a list of pairs of players for the next round of a match.
+1) ```connect() ``` - Connect to PostgreSQL database.
+2) ```commit_st(func)``` - special function created to make coding simple.
+3) ```deleteMatches(cursor)``` - delete all the match records.
+4) ```deletePlayers(cursor)```- remove all player records.
+5) ```countPlayers(cursor)``` - returns a number of players currently registered.
+6) ```registerPlayer(cursor, name)``` - Adds a player to the tournament database.
+7) ```playerStandings(cursor)``` - Returns a list of the players and their win records, sorted by wins.
+8) ```reportMatch(cursor, winner, loser)``` -Records the outcome of a single match between two players.
+9) ```swissPairings()``` - Returns a list of pairs of players for the next round of a match.
 
 In the tournament.sql file there are tables, schemas and some views already defined.
 
@@ -56,8 +48,8 @@ If you dont, please install it.
 
  2. `\C tournament` Connect to database tournament.
 
- 3.`\I tournament.sql` Creating all tables and views from file.
+ 3. `\I tournament.sql` Creating all tables and views from file.
 
-5.To run test type python tournament_test.py.
+8.To run test, type `python tournament_test.py`.
 
 Have fun.
